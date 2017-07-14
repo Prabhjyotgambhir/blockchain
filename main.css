@@ -1,0 +1,58 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+@font-face {
+    font-family: CODEBold;
+    src: url(font-family/CODEBold.otf);
+}
+.navbar {
+	list-style-type:none;
+	width:75%;
+	float:left;
+	text-align:right;
+	height: 72px;
+
+}
+.navbar ul {
+	margin:30px 20px 0px 0px;
+
+}
+.header {
+	background-color: black;
+	height:72px;
+}
+.logo {
+	float:left;
+	width:25%;
+}
+.logo img {
+	width:155px;
+	padding-left:25px;
+	padding-top:10px;
+}
+.navbar ul li {
+	display:inline;
+	color:white;
+	font-family:CODEBold;
+	padding:10px;
+	letter-spacing: 1px;
+
+}
+.navbar ul a {
+	text-decoration: none;
+}
+.navbar ul li:hover {
+	color:#43C0FF;
+}
+.section1 img {
+	width:100%;
+	height:500px;
+}
+.section2 img {
+	float:right;
+	width:400px;
+	height:300px;
+	margin-right:40px;
+}

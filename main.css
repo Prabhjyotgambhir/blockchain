@@ -93,6 +93,7 @@
 	margin: 200px 0px 0px 50px;
 	border :solid white;
 	border-radius: 50px;
+	overflow: hidden;
 }
 .section2 {
 	float: left;
@@ -109,4 +110,10 @@
 	font-size:30px;
 	padding-top: 20px;
 	color:#bfbfbf;
+}
+.section3  {
+	float: left;
+	width:50%;
+	text-align: left;
+	padding-top: 100px;
 }

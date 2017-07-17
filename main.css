@@ -50,7 +50,8 @@
 	float:left;
 	width:50%;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 150px;
+
 }
 .section1 h1 {
 	font-family: CODEBold;
@@ -65,13 +66,7 @@
 	float: left;
 	width: 50%;
 	height: 400px;
-	padding-top: 60px;
-}
-.section2 img {
-	float:right;
-	width:400px;
-	height:300px;
-	margin-right:40px;
+	padding-top: 150px;
 }
 .knowmore ul {
 	padding-left:500px;
@@ -86,7 +81,32 @@
     display: inline-block;
     font-size: 16px;	
     padding:10px 20px;
+    border-radius: 10px;
 }
 .knowmore ul a:hover li {
 	background-color: black;
+}
+.img2 img {
+	float: left;
+	width: 30%;
+	height: 300px;
+	margin: 200px 0px 0px 50px;
+	border :solid white;
+	border-radius: 50px;
+}
+.section2 {
+	float: left;
+	width:50%;
+	text-align: center;
+	padding: 200px 0px 0px 100px;
+}
+.section2 h1 {
+	font-family: CODEBold;
+	font-size:60px;
+}
+.section2 p {
+	font-family: Futura STD;
+	font-size:30px;
+	padding-top: 20px;
+	color:#bfbfbf;
 }

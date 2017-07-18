@@ -18,6 +18,7 @@
 .navbar ul {
 	margin:30px 20px 0px 0px;
 
+
 }
 .header {
 	background-color: black;
@@ -108,30 +109,65 @@
 	padding-top: 20px;
 	color:#bfbfbf;
 }
-.section3  {
-	float: left;
-	padding-top: 90px;
-	width: 50%;
-	text-align: center;
-	font-family: CODEBold;
-	font-size:60px;
-}
 .section2 {
     height: 660px;
 }
-.img3 img {
-	width:10%;
-	height: 80px;
-	padding-top: 80px;
-	float: left;
+.section3 {
+	height: 500px;
+	padding-top: 50px;
 }
-.text3 {
-	float: left;
-	width: 40%;		
-	padding-top: 110px;
-}
-.text3 h1 {
-	padding-left: 20px;
+.section3up {
+	padding-top: 0px;
+	text-align: center;
 	font-family: CODEBold;
-	font-size:30px;
+	font-size:40px;
+}
+.section3down1 {
+	float: left;
+	margin: 0px 100px;
+	padding-left: 160px;
+}
+
+.s3im3 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+}
+.title1down {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+.section3down2 {
+	float: left;
+	margin: 0px 100px;
+}
+.s3im4 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+
+}
+.title2down {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+
+.section3down3 {
+	float: left;
+	margin: 0px 100px;
+}
+.s3im5 img {
+	height: 120px;
+	width:120px;
+	float: left;
+	padding: 50px 50px 20px 50px;
+}
+.title3down {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
 }

@@ -184,24 +184,38 @@ section.five {
     font-size: 30px;
     font-family:CODEBold;
 }
+section.six {
+	width: 100%;
+	overflow: hidden;
+	 padding: 60px 0;
+	 background-color:#eaeaea;
+	 height:500px;
+}
+.text4 {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+.text4 h1 {
+	font-size: 40px;
+	font-family: CODEBold;
+	text-align: center;
+}
+.text4 p {
+	font-size: 30px;
+	font-family: futura STD;
+	color:#8a8a8a;
+	padding-top: 20px;
+}
 .form {
     width: 40%;
     float: left;
     box-sizing: border-box;
-}
-.about {
-    width: 60%;
-    float: left;
-    box-sizing: border-box;
-}
-section.form-sec {
-    padding: 80px 0;
-}
-/*
-.about h3, p {
-    padding: 10px 80px;
-}
-*/
+    padding-left: 200px;
+    font-family: : Futura STD;
+ }
+
 /*
 .section1  {
 	float:left;

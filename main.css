@@ -47,30 +47,40 @@
 .navbar ul li:hover {
 	color:#43C0FF;
 }
-.section1  {
-	float:left;
-	width:50%;
-	text-align: center;
-	padding-top: 150px;
+
+.img1 img {
+    width: 800px;
+    margin: 80px 40px 0px 0px;
+}
+
+.img1 {
+    width: 50%;
+    float: left;
+}
+section.two {
+    overflow: hidden;
+    height: 700px;
+}
+.text1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 120px 20px;
 
 }
-.section1 h1 {
+.text1 h1 {
 	font-family: CODEBold;
 	font-size:60px;
 }
-.section1 h2 {
-	font-family: Futura STD;
-	font-size:30px;
-	padding-top: 20px;
-}
-.img1 img {
-	float: left;
-	width: 50%;
-	height: 400px;
-	padding-top: 150px;
+.text1 p {
+	font-family: futura STD;
+	font-size: 28px;
+	color:#d2d2d2;
+	padding-top:20px;
 }
 .knowmore ul {
-	padding-left:500px;
+	padding-left:400px;
 	padding-top: 30px;
 }
 .knowmore ul li  {
@@ -87,6 +97,131 @@
 .knowmore ul a:hover li {
 	background-color: black;
 }
+section.three {
+	overflow: hidden;
+	height: 500px;
+	background-color:#eaeaea;
+
+}
+.img2 {
+	width: 50%;
+	float: left;
+}
+.img2 img {
+	border:solid white;
+	border-radius:60px;
+	width: 400px;
+	height: 400px;
+	margin: 30px 30px 0px 150px;
+}
+.text2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 120px 20px;
+
+}
+.text2 h1 {
+	font-family: CODEBold;
+	font-size:60px;
+}
+.text2 p {
+	font-size: 28px;
+	font-family: futura STD;
+	color:#8b8b8b;
+}
+.offer {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+}
+section.four {
+    text-align: center;
+    background-color: #ebd673;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.offertext h1 {
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-family:CODEBold;
+}
+.offer h2 {
+	font-family: CODEBold;
+	font-size: 30px;
+	padding:10px;
+}
+.offer p {
+	font-family: futura STD;
+	color:#444443;
+}
+.offer img {
+    width: 120px;
+}
+
+section.five {
+    text-align: center;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.present {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.present img {
+	width: 120px;
+}
+.present h2 {
+	font-family: CODEBold;
+	font-size: 30px;
+	padding:10px;
+}
+.text3 {
+	padding-bottom: 80px;
+    font-size: 30px;
+    font-family:CODEBold;
+}
+.form {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+.about {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+section.form-sec {
+    padding: 80px 0;
+}
+/*
+.about h3, p {
+    padding: 10px 80px;
+}
+*/
+/*
+.section1  {
+	float:left;
+	width:50%;
+	text-align: center;
+	padding-top: 150px;
+
+}
+.section1 h1 {
+	font-family: CODEBold;
+	font-size:60px;
+}
+.section1 h2 {
+	font-family: Futura STD;
+	font-size:30px;
+	padding-top: 20px;
+}
+
+}
+
 .img2 img {
 	float: left;
 	height: 300px;
@@ -236,52 +371,4 @@
 	font-family: CODEBold;
 	text-align: center;
 }
-.section4down4 {
-	float: left;
-	margin: 0px 100px;
-	padding-left: 160px;
-}
-
-.s4im4 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-}
-.titledown4 {
-	padding-top: 120px;
-	font-family: CODEBold;
-	text-align: center;
-}
-.section4down5 {
-	float: left;
-	margin: 0px 100px;
-}
-.s4im5 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-
-}
-.titledown5 {
-	padding-top: 120px;
-	font-family: CODEBold;
-	text-align: center;
-}
-
-.section4down6 {
-	float: left;
-	margin: 0px 120px;
-}
-.s4im6 img {
-	height: 120px;
-	width:120px;
-	float: left;
-	padding: 50px 50px 20px 50px;
-}
-.titledown6 {
-	padding-top: 120px;
-	font-family: CODEBold;
-	text-align: center;
-}
+*/

@@ -178,3 +178,61 @@
 	font-family: futura STD;
 	color:#bfbfbf;
 }
+.section4 {
+	height:500px;  
+}
+.s4heading {
+	font-family: CODEBold;
+	font-size:30px;
+	padding: 20px 0px 0px 20px;
+	text-align: center;
+}
+.section4down1 {
+	float: left;
+	margin: 0px 100px;
+	padding-left: 160px;
+}
+
+.s4im1 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+}
+.titledown1 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+.section4down2 {
+	float: left;
+	margin: 0px 100px;
+}
+.s4im2 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+
+}
+.titledown2 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+
+.section4down3 {
+	float: left;
+	margin: 0px 100px;
+}
+.s4im3 img {
+	height: 120px;
+	width:120px;
+	float: left;
+	padding: 50px 50px 20px 50px;
+}
+.titledown3 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}

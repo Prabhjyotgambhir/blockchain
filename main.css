@@ -236,3 +236,52 @@
 	font-family: CODEBold;
 	text-align: center;
 }
+.section4down4 {
+	float: left;
+	margin: 0px 100px;
+	padding-left: 160px;
+}
+
+.s4im4 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+}
+.titledown4 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+.section4down5 {
+	float: left;
+	margin: 0px 100px;
+}
+.s4im5 img {
+	height: 120px;
+	width:120px;
+	padding: 50px 50px 20px 50px;
+	float: left;
+
+}
+.titledown5 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}
+
+.section4down6 {
+	float: left;
+	margin: 0px 120px;
+}
+.s4im6 img {
+	height: 120px;
+	width:120px;
+	float: left;
+	padding: 50px 50px 20px 50px;
+}
+.titledown6 {
+	padding-top: 120px;
+	font-family: CODEBold;
+	text-align: center;
+}

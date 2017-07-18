@@ -111,6 +111,7 @@
 }
 .section2 {
     height: 660px;
+    width:100%;
 }
 .section3 {
 	height: 500px;
@@ -170,4 +171,10 @@
 	padding-top: 120px;
 	font-family: CODEBold;
 	text-align: center;
+}
+.p1, .p2, .p3 {
+	text-align: center;
+	padding-top: 10px;
+	font-family: futura STD;
+	color:#bfbfbf;
 }

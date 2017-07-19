@@ -66,7 +66,7 @@ section.two {
     float: left;
     text-align: justify;
     box-sizing: border-box;
-    padding: 120px 20px;
+    padding: 120px 60px;
 
 }
 .text1 h1 {
@@ -101,7 +101,6 @@ section.two {
 section.three {
 	overflow: hidden;
 	height: 800px;
-	background-color:#faf9f9;
 
 }
 .img2 {
@@ -120,7 +119,7 @@ section.three {
     float: left;
     text-align: justify;
     box-sizing: border-box;
-    padding: 175px 20px;
+    padding: 175px 0px 0px 0px;
 
 }
 .text2 h1 {
@@ -316,7 +315,37 @@ input[type="submit"] {
 	font-family: futura STD;
 	text-align: justify;
 }
-
+section.eight {
+    text-align: center;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.techapplications {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    border:solid 0.5px #d9d9d9;
+    border-radius: 10px;
+    margin: 0px 25px;
+    padding: 20px;
+}
+.application h1 {
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-family:CODEBold;
+}
+.techapplications h2 {
+	font-family: CODEBold;
+	font-size: 30px;
+	padding:10px;
+}
+.techapplications p {
+	font-family: futura STD;
+	color:#444443;
+}
+.techapplications img {
+    width: 120px;
+}
 /*
 .section1  {
 	float:left;

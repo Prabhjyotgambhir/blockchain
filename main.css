@@ -78,7 +78,7 @@ section.two {
 	font-size:60px;
 }
 .text1 p {
-	font-family: futura STD;
+	font-family: futuraSTD;
 	font-size: 28px;
 	color:#d2d2d2;
 	padding-top:20px;
@@ -132,7 +132,7 @@ section.three {
 }
 .text2 p {
 	font-size: 28px;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	color:#8b8b8b;
 	width:700px;
 }
@@ -158,7 +158,7 @@ section.four {
 	padding:10px;
 }
 .offer p {
-	font-family: futura STD;
+	font-family: futuraSTD;
 	color:#444443;
 }
 .offer img {
@@ -192,7 +192,7 @@ section.five {
 section.six {
 	width: 100%;
 	overflow: hidden;
-	padding: 60px 0;
+	padding: 120px 0;
 	background-color:#eaeaea;
 	height:300px;
 	background-color:#01363d;
@@ -211,7 +211,7 @@ section.six {
 }
 .text4 p {
 	font-size:20px;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	color:#d7dedf;
 	padding-top: 20px;
 	width: 800px;
@@ -221,7 +221,7 @@ section.six {
     float: left;
     box-sizing: border-box;
     padding-left: 200px;
-    font-family: : Futura STD;
+    font-family: : futuraSTD;
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
@@ -230,7 +230,7 @@ input[type="text"], input[type="email"], textarea  {
 }
 input[type="submit"] {
 	padding: 3px;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	border:solid 1px white;
 	border-radius: 4px;
 }
@@ -250,6 +250,7 @@ input[type="submit"] {
  section.seven {
  	overflow: hidden;
  	height: 550px;
+ 	padding-top: 120px;
  }
  .leftmove , .rightmove{
  	float: left;
@@ -316,13 +317,14 @@ input[type="submit"] {
 .stories p {
 	margin: 60px 30px 0px 0px;
 	color:#686868;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	text-align: justify;
 }
 section.eight {
     text-align: center;
     overflow: hidden;
     padding: 60px 0;
+    padding-top: 120px;
 }
 .techapplications {
     width: 30%;
@@ -344,11 +346,14 @@ section.eight {
 	padding:10px;
 }
 .techapplications p {
-	font-family: futura STD;
+	font-family: futuraSTD;
 	color:#444443;
 }
 .techapplications img {
     width: 120px;
+}
+section.nine  {
+	padding-top: 120px;
 }
 .parallax {
 	background-image: url("images/parallaximage.jpg");
@@ -356,36 +361,35 @@ section.eight {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-	
-	
+	background-size: cover;	
 }
 .parallaxtext {
 	text-align: center;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	font-size: 30px;
 	padding-top:300px;
 	width: 1000px;
-
+	color:white;
+	letter-spacing:1px;
 }
 .emailus ul {
 	padding-top: 30px;
 	padding-left:430px; 
 }
 .emailus ul li  { 
-    border: solid 3px black;
-    color: black;	
+    border: solid 1px #059cd3;
+    color: white;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;	
-    padding:15px 30px;
-    border-radius: 10px;
-    font-family: futura STD;
+    padding:10px 30px;
+    border-radius: 4px;
+    font-family: futuraSTD;
 }
 .emailus ul a:hover li {
-	background-color: black;
 	color:white;
+	border-color: pink;
 }
 /*
 .section1  {
@@ -400,7 +404,7 @@ section.eight {
 	font-size:60px;
 }
 .section1 h2 {
-	font-family: Futura STD;
+	font-family: futuraSTD;
 	font-size:30px;
 	padding-top: 20px;
 }
@@ -424,7 +428,7 @@ section.eight {
 	font-size:60px;
 }
 .text2 p {
-	font-family: Futura STD;
+	font-family: futuraSTD;
 	font-size:30px;
 	padding-top: 20px;
 	color:#bfbfbf;
@@ -495,7 +499,7 @@ section.eight {
 .p1, .p2, .p3 {
 	text-align: center;
 	padding-top: 10px;
-	font-family: futura STD;
+	font-family: futuraSTD;
 	color:#bfbfbf;
 }
 .section4 {

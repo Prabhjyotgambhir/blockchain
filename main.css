@@ -101,7 +101,7 @@ section.two {
 section.three {
 	overflow: hidden;
 	height: 800px;
-	background-color:#eaeaea;
+	background-color:#faf9f9;
 
 }
 .img2 {
@@ -140,7 +140,7 @@ section.three {
 }
 section.four {
     text-align: center;
-    background-color: #ebd673;
+    background-color: #faf5ee;
     overflow: hidden;
     padding: 60px 0;
 }
@@ -192,6 +192,7 @@ section.six {
 	padding: 60px 0;
 	background-color:#eaeaea;
 	height:300px;
+	background-color:#01363d;
 }
 .text4 {
     width: 60%;
@@ -199,15 +200,16 @@ section.six {
     box-sizing: border-box;
     text-align: justify;
     padding-left: 50px;
+  	color:white;
 }
 .text4 h1 {
 	font-size: 40px;
 	font-family: CODEBold;
 }
 .text4 p {
-	font-size: 30px;
+	font-size:20px;
 	font-family: futura STD;
-	color:#8a8a8a;
+	color:#d7dedf;
 	padding-top: 20px;
 	width: 800px;
 }

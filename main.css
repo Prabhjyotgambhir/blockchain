@@ -7,6 +7,10 @@
     font-family: CODEBold;
     src: url(font-family/CODEBold.otf);
 }
+@font-face {
+    font-family: FuturaSTD;
+    src: url(font-family/FuturaSTD.otf);
+}
 .navbar {
 	list-style-type:none;
 	width:75%;
@@ -345,6 +349,43 @@ section.eight {
 }
 .techapplications img {
     width: 120px;
+}
+.parallax {
+	background-image: url("images/parallaximage.jpg");
+	height:600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+.parallaxtext {
+	text-align: center;
+	font-family: futura STD;
+	font-size: 30px;
+	padding-top:300px;
+	width: 1000px;
+
+}
+.emailus ul {
+	padding-top: 30px;
+	padding-left:430px; 
+}
+.emailus ul li  { 
+    border: solid 3px black;
+    color: black;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+    padding:15px 30px;
+    border-radius: 10px;
+    font-family: futura STD;
+}
+.emailus ul a:hover li {
+	background-color: black;
+	color:white;
 }
 /*
 .section1  {

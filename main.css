@@ -99,7 +99,7 @@ section.two {
 }
 section.three {
 	overflow: hidden;
-	height: 500px;
+	height: 800px;
 	background-color:#eaeaea;
 
 }
@@ -112,14 +112,14 @@ section.three {
 	border-radius:60px;
 	width: 400px;
 	height: 400px;
-	margin: 30px 30px 0px 150px;
+	margin: 175px 30px 0px 150px;
 }
 .text2 {
     width: 50%;
     float: left;
     text-align: center;
     box-sizing: border-box;
-    padding: 120px 20px;
+    padding: 175px 20px;
 
 }
 .text2 h1 {
@@ -189,7 +189,7 @@ section.six {
 	overflow: hidden;
 	 padding: 60px 0;
 	 background-color:#eaeaea;
-	 height:500px;
+	 height:300px;
 }
 .text4 {
     width: 60%;
@@ -214,6 +214,18 @@ section.six {
     box-sizing: border-box;
     padding-left: 200px;
     font-family: : Futura STD;
+ }
+ #f1 {
+ 	width:200px;
+ 	background-color: #ebd673;
+ 	padding: 30px;
+ }
+ .form h1 {
+ 	text-align: center;
+ 	background-color: #d0b743;
+ 	width: 260px;
+ 	padding: 20px 0px 20px 0px;
+ 	font-family: CODEBold;
  }
 
 /*

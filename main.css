@@ -323,8 +323,7 @@ input[type="submit"] {
 section.eight {
     text-align: center;
     overflow: hidden;
-    padding: 60px 0;
-    padding-top: 120px;
+    padding: 120px 0px 60px 0px;
 }
 .techapplications {
     width: 30%;
@@ -353,7 +352,8 @@ section.eight {
     width: 120px;
 }
 section.nine  {
-	padding-top: 120px;
+	padding: 120px 0px 60px 0px;
+	overflow: hidden;
 }
 .parallax {
 	background-image: url("images/parallaximage.jpg");
@@ -390,6 +390,32 @@ section.nine  {
 .emailus ul a:hover li {
 	color:white;
 	border-color: pink;
+}
+
+section.ten {
+    text-align: center;
+    overflow: hidden;
+  	padding: 65px 0px 60px 0px;
+}
+.charts {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.charts img {
+	width: 400px;
+}
+.charts h2 {
+	font-family: CODEBold;
+	font-size: 30px;
+	padding:10px;
+}
+.analysis {
+	text-align: center;
+	font-family: CODEBold;
+	font-size: 40px;
+	padding: 30px 0px 30px 0px; 
 }
 /*
 .section1  {

@@ -78,7 +78,7 @@ section.two {
 	font-size:60px;
 }
 .text1 p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	font-size: 28px;
 	color:#d2d2d2;
 	padding-top:20px;
@@ -132,7 +132,7 @@ section.three {
 }
 .text2 p {
 	font-size: 28px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:#8b8b8b;
 	width:700px;
 }
@@ -158,7 +158,7 @@ section.four {
 	padding:10px;
 }
 .offer p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:#444443;
 }
 .offer img {
@@ -211,7 +211,7 @@ section.six {
 }
 .text4 p {
 	font-size:20px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:#d7dedf;
 	padding-top: 20px;
 	width: 800px;
@@ -221,7 +221,7 @@ section.six {
     float: left;
     box-sizing: border-box;
     padding-left: 200px;
-    font-family: : futuraSTD;
+    font-family: : FuturaSTD;
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
@@ -230,7 +230,7 @@ input[type="text"], input[type="email"], textarea  {
 }
 input[type="submit"] {
 	padding: 3px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	border:solid 1px white;
 	border-radius: 4px;
 }
@@ -317,7 +317,7 @@ input[type="submit"] {
 .stories p {
 	margin: 60px 30px 0px 0px;
 	color:#686868;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	text-align: justify;
 }
 section.eight {
@@ -345,7 +345,7 @@ section.eight {
 	padding:10px;
 }
 .techapplications p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:#444443;
 }
 .techapplications img {
@@ -365,7 +365,7 @@ section.nine  {
 }
 .parallaxtext {
 	text-align: center;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	font-size: 30px;
 	padding-top:300px;
 	width: 1000px;
@@ -385,7 +385,7 @@ section.nine  {
     font-size: 16px;	
     padding:10px 30px;
     border-radius: 4px;
-    font-family: futuraSTD;
+    font-family: FuturaSTD;
 }
 .emailus ul a:hover li {
 	color:white;
@@ -454,7 +454,7 @@ section.eleven {
 }
 .countryname h2 {
 	font-size: 20px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 }
 .countries {
 	padding-top: 40px;
@@ -488,7 +488,7 @@ section.eleven {
 	color:white;
 }
 .intouch h3 {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	font-size: 25px;
 	color:white;
 }
@@ -527,7 +527,7 @@ section.thirteen {
 	text-align: center;
 }
 .leftfooter p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	width: 300px;
 	margin: 25px 90px;
 }
@@ -561,7 +561,7 @@ section.thirteen {
 	color:#10cbe4;
 }
 .rightfooter p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	margin: 25px 90px;
 }
 .socialfooter img {
@@ -579,7 +579,7 @@ section.fourteen {
 .privacypolicy {
 	text-align: center;
 	font-size: 20px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:white;
 }
 .privacypolicy h4 {
@@ -598,7 +598,7 @@ section.fourteen {
 	font-size:60px;
 }
 .section1 h2 {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	font-size:30px;
 	padding-top: 20px;
 }
@@ -622,7 +622,7 @@ section.fourteen {
 	font-size:60px;
 }
 .text2 p {
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	font-size:30px;
 	padding-top: 20px;
 	color:#bfbfbf;
@@ -693,7 +693,7 @@ section.fourteen {
 .p1, .p2, .p3 {
 	text-align: center;
 	padding-top: 10px;
-	font-family: futuraSTD;
+	font-family: FuturaSTD;
 	color:#bfbfbf;
 }
 .section4 {

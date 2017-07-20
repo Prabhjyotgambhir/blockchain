@@ -21,11 +21,10 @@
 }
 .navbar ul {
 	margin:30px 20px 0px 0px;
-
-
+	
 }
 .header {
-	background-color: black;
+	background-color: white;
 	height:72px;
 }
 .logo {
@@ -39,7 +38,7 @@
 }
 .navbar ul li {
 	display:inline;
-	color:white;
+	color:black;
 	font-family:CODEBold;
 	padding:10px;
 	letter-spacing: 1px;
@@ -469,7 +468,7 @@ section.eleven {
  	height: 700px;
  	width: 100%;
  	background-image: url(images/image3.jpg);
- 	background-position: cover;
+	background-size: cover;	
  }
  .intouch {
  	float: left;

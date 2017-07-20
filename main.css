@@ -417,6 +417,49 @@ section.ten {
 	font-size: 40px;
 	padding: 30px 0px 30px 0px; 
 }
+section.eleven {
+	overflow: hidden;
+	height: 600px;
+	padding-top: 200px;
+}
+.inner3 {
+	width:100%;
+}
+.boxandtext {
+	width: 30%;
+	float: left;
+	padding-top: 30px;
+	box-sizing: border-box;
+	padding-left: 40px;		
+}
+.map {
+	width:70%;
+	float: left;
+}
+.checkbox {
+	float: left;
+	width: 30%;
+}
+.checkbox img {
+	width:20px;
+	padding-left: 100px;
+}
+.map img {
+	width:800px;
+	margin-left: 200px;
+}
+.countryname {
+	float: left;
+	width: 70%;
+}
+.countryname h2 {
+	font-size: 20px;
+	font-family: futura STD;
+}
+.countries {
+	padding-top: 40px;
+}
+
 /*
 .section1  {
 	float:left;

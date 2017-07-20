@@ -446,7 +446,7 @@ section.eleven {
 }
 .map img {
 	width:800px;
-	margin-left: 200px;
+	margin-left: 120px;
 }
 .countryname {
 	float: left;
@@ -459,7 +459,57 @@ section.eleven {
 .countries {
 	padding-top: 40px;
 }
+#f2 {
+ 	width:200px;
+ 	padding: 30px;
+ }
 
+ .twelve {
+ 	overflow: hidden;
+ 	height: 700px;
+ 	width: 100%;
+ 	background-image: url(images/image3.jpg);
+ 	background-position: cover;
+ }
+ .intouch {
+ 	float: left;
+ 	width: 50%;
+ 	text-align: center;
+ }
+ .form2 {
+ 	float: left;
+ 	width: 50%;
+ 	box-sizing: border-box;
+ 	padding: 0px 250px;
+ }
+.intouch h1 {
+	font-family: CODEBold;
+	font-size:60px;
+	color:white;
+}
+.intouch h3 {
+	font-family: futura STD;
+	font-size: 25px;
+	color:white;
+}
+.socialmedia {
+	float: left;
+	padding-left: 20px;
+}
+.intouch img {
+	width: 40px;
+}
+
+.form2 {
+	float: left;
+	width: 50%;
+}
+.socialicons {
+	padding: 20px 250px;
+}
+.contact {
+	padding-top: 200px;
+}
 /*
 .section1  {
 	float:left;

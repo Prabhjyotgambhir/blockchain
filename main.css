@@ -510,6 +510,81 @@ section.eleven {
 .contact {
 	padding-top: 200px;
 }
+section.thirteen {
+	height: 300px;
+	overflow: hidden;
+	background-color: #f0f0f0;
+}
+.footer {
+	width:100%;
+}
+.icofooter {
+	padding-left: 120px;
+}
+.leftfooter {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.leftfooter p {
+	font-family: futura STD;
+	width: 300px;
+	margin: 25px 90px;
+}
+.middlefooter {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.rightfooter {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.leftfooter h1 , .rightfooter h1 , .middlefooter h1 {
+	font-size: 20px;
+	font-family: CODEBold;
+	padding-top: 50px;
+}
+.middlefooter ul a {
+	text-decoration: none;
+}
+.middlefooter ul {
+	list-style-type: none;
+	padding: 30px;
+}
+.middlefooter ul li {
+	padding: 5px;
+	color:black;
+}
+.middlefooter  ul a:hover li {
+	color:#10cbe4;
+}
+.rightfooter p {
+	font-family: futura STD;
+	margin: 25px 90px;
+}
+.socialfooter img {
+	width:40px;
+}
+.socialfooter {
+	float: left;
+	padding-left: 20px;
+}
+section.fourteen {
+	overflow: hidden;
+	height:40px;
+	background-color: black;
+}
+.privacypolicy {
+	text-align: center;
+	font-size: 20px;
+	font-family: futura STD;
+	color:white;
+}
+.privacypolicy h4 {
+	padding-top: 10px;
+}
 /*
 .section1  {
 	float:left;

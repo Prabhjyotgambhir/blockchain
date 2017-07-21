@@ -3,14 +3,6 @@
 	margin:0;
 	padding:0;
 }
-@font-face {
-    font-family: 'Open Sans Condensed', sans-serif;
-    src: url(font-family/CODEBold.otf);
-}
-@font-face {
-    font-family: 'Quicksand', sans-serif;
-    src: url(font-family/FuturaSTD.otf);
-}
 .navbar {
 	list-style-type:none;
 	width:75%;
@@ -21,11 +13,11 @@
 }
 .navbar ul {
 	margin:30px 20px 0px 0px;
-	
 }
 .header {
 	background-color: white;
 	height:72px;
+	border-bottom: solid 0.5px gray;
 }
 .logo {
 	float:left;
@@ -39,7 +31,7 @@
 .navbar ul li {
 	display:inline;
 	color:black;
-	font-family:CODEBold;
+	font-family:'PT Sans Narrow', sans-serif;
 	padding:10px;
 	letter-spacing: 1px;
 
@@ -73,11 +65,19 @@ section.two {
 
 }
 .text1 h1 {
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:60px;
 }
 .text1 p {
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Muli', sans-serif;
+	font-size:60px;
+}
+.text1 p {
+	font-family: 'Dosis', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 28px;
 	color:#d2d2d2;
 	padding-top:20px;
@@ -97,6 +97,7 @@ section.two {
     font-size: 16px;	
     padding:10px 20px;
     border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
 }
 .knowmore ul a:hover li {
 	background-color: black;
@@ -131,7 +132,11 @@ section.three {
 }
 .text2 p {
 	font-size: 28px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:#8b8b8b;
 	width:700px;
 }
@@ -149,15 +154,23 @@ section.four {
 .offertext h1 {
     padding-bottom: 80px;
     font-size: 60px;
-    font-family:CODEBold;
+    font-family:'Catamaran', sans-serif;
 }
 .offer h2 {
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
+=======
+	font-family: 'Catamaran', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 30px;
 	padding:10px;
 }
 .offer p {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Abel', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:#444443;
 }
 .offer img {
@@ -178,15 +191,20 @@ section.five {
 .present img {
 	width: 120px;
 }
+
 .present h2 {
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
+=======
+	font-family: 'Monda', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 30px;
 	padding:10px;
 }
 .text3 {
 	padding-bottom: 80px;
     font-size: 30px;
-    font-family:CODEBold;
+    font-family: 'Monda', sans-serif;
 }
 section.six {
 	width: 100%;
@@ -210,7 +228,11 @@ section.six {
 }
 .text4 p {
 	font-size:20px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:#d7dedf;
 	padding-top: 20px;
 	width: 800px;
@@ -220,7 +242,7 @@ section.six {
     float: left;
     box-sizing: border-box;
     padding-left: 200px;
-    font-family: : FuturaSTD;
+    font-family: : 'Ubuntu', sans-serif;
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
@@ -229,7 +251,11 @@ input[type="text"], input[type="email"], textarea  {
 }
 input[type="submit"] {
 	padding: 3px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	border:solid 1px white;
 	border-radius: 4px;
 }
@@ -276,7 +302,11 @@ input[type="submit"] {
 
 .success {
 	text-align: center;
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
+=======
+	font-family: 'Quattrocento Sans', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 30px;
 	padding: 30px 0px 30px 0px; 
 }
@@ -290,8 +320,14 @@ input[type="submit"] {
 	border-right: solid 10px white;
 }
 .stories h2 {
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
+=======
+	font-family: 'Quattrocento Sans', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	padding: 20px 0px 20px 0px;
+	text-align: center;
+	background-color: #c9c8c7;
 }
 .storyimg {
 	float: left;
@@ -307,16 +343,14 @@ input[type="submit"] {
 	width: 50%;
 	float: left;
 }
-.stories h2{
-	text-align: center;
-	background-color: #c9c8c7;
-
-}
-
 .stories p {
 	margin: 60px 30px 0px 0px;
 	color:#686868;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Quattrocento Sans', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	text-align: justify;
 }
 section.eight {
@@ -336,15 +370,23 @@ section.eight {
 .application h1 {
     padding-bottom: 80px;
     font-size: 60px;
-    font-family:CODEBold;
+    font-family:'Hind Siliguri', sans-serif;
 }
 .techapplications h2 {
+<<<<<<< HEAD
 	font-family: 'Open Sans Condensed', sans-serif;
+=======
+	font-family: 'Hind Siliguri', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 30px;
 	padding:10px;
 }
 .techapplications p {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Hind Siliguri', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:#444443;
 }
 .techapplications img {
@@ -364,7 +406,11 @@ section.nine  {
 }
 .parallaxtext {
 	text-align: center;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 30px;
 	padding-top:300px;
 	width: 1000px;
@@ -384,7 +430,11 @@ section.nine  {
     font-size: 16px;	
     padding:10px 30px;
     border-radius: 4px;
+<<<<<<< HEAD
     font-family: 'Quicksand', sans-serif;
+=======
+    font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 }
 .emailus ul a:hover li {
 	color:white;
@@ -453,7 +503,11 @@ section.eleven {
 }
 .countryname h2 {
 	font-size: 20px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 }
 .countries {
 	padding-top: 40px;
@@ -468,7 +522,10 @@ section.eleven {
  	height: 700px;
  	width: 100%;
  	background-image: url(images/image3.jpg);
-	background-size: cover;	
+ 	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-position: cover;
  }
  .intouch {
  	float: left;
@@ -487,7 +544,11 @@ section.eleven {
 	color:white;
 }
 .intouch h3 {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size: 25px;
 	color:white;
 }
@@ -526,7 +587,11 @@ section.thirteen {
 	text-align: center;
 }
 .leftfooter p {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	width: 300px;
 	margin: 25px 90px;
 }
@@ -560,7 +625,11 @@ section.thirteen {
 	color:#10cbe4;
 }
 .rightfooter p {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	margin: 25px 90px;
 }
 .socialfooter img {
@@ -578,7 +647,11 @@ section.fourteen {
 .privacypolicy {
 	text-align: center;
 	font-size: 20px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:white;
 }
 .privacypolicy h4 {
@@ -597,7 +670,11 @@ section.fourteen {
 	font-size:60px;
 }
 .section1 h2 {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: 'Ubuntu', sans-serif;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size:30px;
 	padding-top: 20px;
 }
@@ -621,7 +698,11 @@ section.fourteen {
 	font-size:60px;
 }
 .text2 p {
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: Ubuntu;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	font-size:30px;
 	padding-top: 20px;
 	color:#bfbfbf;
@@ -692,7 +773,11 @@ section.fourteen {
 .p1, .p2, .p3 {
 	text-align: center;
 	padding-top: 10px;
+<<<<<<< HEAD
 	font-family: 'Quicksand', sans-serif;
+=======
+	font-family: Ubuntu;
+>>>>>>> 40040ae27a8983614ba5b9e6414858f7c07944b3
 	color:#bfbfbf;
 }
 .section4 {

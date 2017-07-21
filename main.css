@@ -25,7 +25,7 @@
 }
 .logo img {
 	width:155px;
-	padding-left:25px;
+	padding-left:60px;
 	padding-top:10px;
 }
 .navbar ul li {
@@ -59,7 +59,6 @@ section.two {
 .text1 {
     width: 50%;
     float: left;
-    text-align: justify;
     box-sizing: border-box;
     padding: 120px 60px;
 
@@ -108,14 +107,14 @@ section.three {
 	border-radius:60px;
 	width: 400px;
 	height: 400px;
-	margin: 175px 30px 0px 150px;
+	margin: 175px 30px 0px 60px;
 }
 .text2 {
     width: 50%;
     float: left;
     text-align: justify;
     box-sizing: border-box;
-    padding: 175px 0px 0px 0px;
+    padding: 175px 60px 0px 0px;
 
 }
 .text2 h1 {
@@ -186,8 +185,7 @@ section.six {
 	width: 100%;
 	overflow: hidden;
 	padding: 120px 0;
-	background-color:#eaeaea;
-	height:300px;
+	height:385px;
 	background-color:#01363d;
 }
 .text4 {
@@ -195,7 +193,7 @@ section.six {
     float: left;
     box-sizing: border-box;
     text-align: justify;
-    padding-left: 50px;
+    padding-left: 60px;
   	color:white;
 }
 .text4 h1 {
@@ -213,7 +211,7 @@ section.six {
     width: 40%;
     float: left;
     box-sizing: border-box;
-    padding-left: 200px;
+    padding-left: 100px;
     font-family: : 'Ubuntu', sans-serif;
  }
 input[type="text"], input[type="email"], textarea  {
@@ -230,14 +228,15 @@ input[type="submit"] {
  #f1 {
  	width:200px;
  	background-color: #ebd673;
- 	padding: 30px;
+ 	padding: 60px;
  }
  .form h1 {
  	text-align: center;
  	background-color: #d0b743;
- 	width: 260px;
- 	padding: 20px 0px 20px 0px;
+ 	width: 320px;
+ 	padding: 8px 0px 20px 0px;
  	font-family: 'Open Sans Condensed', sans-serif;
+ 	font-size: 35px;
  }
 
  section.seven {
@@ -249,9 +248,14 @@ input[type="submit"] {
  	float: left;
  	width:9%;
  }
- .leftmove ul, .rightmove ul {
-	padding-left: 45px;
+ .leftmove ul {
+	padding-left: 60px;
 	padding-top: 160px;
+}
+.rightmove ul {
+	padding-right: 60px;
+	padding-top: 160px;
+	padding-left: 30px;
 }		
 .leftmove ul li, .rightmove ul li  {
 	background-color: #43c0ff; 
@@ -314,13 +318,31 @@ section.eight {
     overflow: hidden;
     padding: 120px 0px 60px 0px;
 }
-.techapplications {
+.ruby {
     width: 30%;
     float: left;
     box-sizing: border-box;
     border:solid 0.5px #d9d9d9;
     border-radius: 10px;
-    margin: 0px 25px;
+    margin-left: 60px;
+    padding: 20px;
+}
+.nodejs {
+	width: 30%;
+    float: left;
+    box-sizing: border-box;
+    border:solid 0.5px #d9d9d9;
+    border-radius: 10px;
+    margin: 0px 15px 0px 15px;
+    padding: 20px;
+}
+.php {
+	width: 30%;
+    float: left;
+    box-sizing: border-box;
+    border:solid 0.5px #d9d9d9;
+    border-radius: 10px;
+    margin-right: 60px;
     padding: 20px;
 }
 .application h1 {
@@ -328,16 +350,16 @@ section.eight {
     font-size: 60px;
     font-family:'Hind Siliguri', sans-serif;
 }
-.techapplications h2 {
+.ruby h2, .php h2, .nodejs h2 {
 	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 30px;
 	padding:10px;
 }
-.techapplications p {
+.ruby p, .php p, .nodejs p {
 	font-family: 'Hind Siliguri', sans-serif;
 	color:#444443;
 }
-.techapplications img {
+.ruby img, .php img, .nodejs img {
     width: 120px;
 }
 section.nine  {
@@ -353,17 +375,16 @@ section.nine  {
 	background-size: cover;	
 }
 .parallaxtext {
-	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
-	padding-top:300px;
-	width: 1000px;
+	padding-top:220px;
 	color:white;
 	letter-spacing:1px;
+	text-align: center;
+	margin: 0px 400px;
 }
 .emailus ul {
 	padding-top: 30px;
-	padding-left:430px; 
 }
 .emailus ul li  { 
     border: solid 1px #059cd3;
@@ -461,7 +482,7 @@ section.eleven {
  	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
- 	background-position: cover;
+ 	background-size: cover;
  }
  .intouch {
  	float: left;
@@ -509,6 +530,7 @@ section.thirteen {
 }
 .footer {
 	width:100%;
+	padding-top: 50px;
 }
 .icofooter {
 	padding-left: 120px;
@@ -536,7 +558,6 @@ section.thirteen {
 .leftfooter h1 , .rightfooter h1 , .middlefooter h1 {
 	font-size: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding-top: 50px;
 }
 .middlefooter ul a {
 	text-decoration: none;
@@ -554,7 +575,7 @@ section.thirteen {
 }
 .rightfooter p {
 	font-family: 'Ubuntu', sans-serif;
-	margin: 25px 90px;
+	margin: 25px 130px;
 }
 .socialfooter img {
 	width:40px;
@@ -562,6 +583,27 @@ section.thirteen {
 .socialfooter {
 	float: left;
 	padding-left: 20px;
+}
+.icons {
+	float: left;
+	width: 10%;
+}
+.icons img {
+	width: 22px;
+}
+.iconset {
+	padding-left: 150px;
+	width: 100%;
+}
+.contacttext {
+	float: left;
+	width: 90%;
+}
+.contacttext h1 {
+	font-size: 10px;	
+	text-align: justify;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 5px;
 }
 section.fourteen {
 	overflow: hidden;

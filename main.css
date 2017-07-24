@@ -68,9 +68,9 @@ section.two {
 	font-size:60px;
 }
 .text1 p {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 28px;
-	color:#d2d2d2;
+	color:#c8c8c8;
 	padding-top:20px;
 	width:500px;
 }
@@ -124,7 +124,7 @@ section.three {
 }
 .text2 p {
 	font-size: 28px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	color:#8b8b8b;
 	width:700px;
 }
@@ -135,7 +135,7 @@ section.three {
 }
 section.four {
     text-align: center;
-    background-color: #faf5ee;
+    background-color: #f3f3f3;
     overflow: hidden;
     padding: 60px 0;
 }
@@ -150,8 +150,9 @@ section.four {
 	padding:10px;
 }
 .offer p {
-	font-family: 'Abel', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	color:#444443;
+	padding:0px 150px;
 }
 .offer img {
     width: 120px;
@@ -203,7 +204,7 @@ section.six {
 }
 .text4 p {
 	font-size:20px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	color:#d7dedf;
 	padding-top: 20px;
 	width: 800px;
@@ -217,7 +218,6 @@ section.six {
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
-	border-radius: 3px;
 	padding: 5px;
 }
 input[type="submit"] {
@@ -230,6 +230,11 @@ input[type="submit"] {
  	width:200px;
  	background-color: #ebd673;
  	padding: 60px;
+ }
+ #f2 {
+ 	width:500px;
+ 	border:1px solid white;
+ 	padding: 15px;
  }
  .form h1 {
  	text-align: center;
@@ -311,7 +316,7 @@ input[type="submit"] {
 .stories p {
 	margin: 60px 30px 0px 0px;
 	color:#686868;
-	font-family: 'Quattrocento Sans', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	text-align: justify;
 }
 section.eight {
@@ -506,10 +511,6 @@ section.eleven {
 .countries {
 	padding-top: 40px;
 }
-#f2 {
- 	width:200px;
- 	padding: 30px;
- }
 
  .twelve {
  	overflow: hidden;
@@ -525,13 +526,99 @@ section.eleven {
  	float: left;
  	width: 50%;
  	text-align: center;
+ 	padding-top: 200px;
  }
- .form2 {
- 	float: left;
- 	width: 50%;
- 	box-sizing: border-box;
- 	padding: 0px 250px;
- }
+ .formstyle1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color:white;
+}
+.formstyle1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.formstyle1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form2 {
+	width: 50%;
+	float: left;
+	padding-top: 50px;
+	box-sizing: border-box;
+    padding-left: 50px;
+}
+.formstyle1 input[type=text], 
+.formstyle1 input[type=date],
+.formstyle1 input[type=datetime],
+.formstyle1 input[type=number],
+.formstyle1 input[type=search],
+.formstyle1 input[type=time],
+.formstyle1 input[type=url],
+.formstyle1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.formstyle1 input[type=text]:focus, 
+.formstyle1 input[type=date]:focus,
+.formstyle1 input[type=datetime]:focus,
+.formstyle1 input[type=number]:focus,
+.formstyle1 input[type=search]:focus,
+.formstyle1 input[type=time]:focus,
+.formstyle1 input[type=url]:focus,
+.formstyle1 input[type=email]:focus,
+.formstyle1 textarea:focus, 
+.formstyle1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.formstyle1 .field-divided{
+    width: 49%;
+}
+
+.formstyle1 .field-long{
+    width: 100%;
+}
+.formstyle1 .field-select{
+    width: 100%;
+}
+.formstyle1 .field-textarea{
+    height: 100px;
+}
+.formstyle1 input[type=submit], .formstyle1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.formstyle1 input[type=submit]:hover, .formstyle1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.formstyle1 .required{
+    color:red;
+}
 .intouch h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:60px;
@@ -550,15 +637,8 @@ section.eleven {
 	width: 40px;
 }
 
-.form2 {
-	float: left;
-	width: 50%;
-}
 .socialicons {
 	padding: 20px 250px;
-}
-.contact {
-	padding-top: 200px;
 }
 section.thirteen {
 	height: 300px;
@@ -578,7 +658,7 @@ section.thirteen {
 	text-align: center;
 }
 .leftfooter p {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
 	width: 300px;
 	margin: 25px 90px;
 }
@@ -604,8 +684,9 @@ section.thirteen {
 	padding: 30px;
 }
 .middlefooter ul li {
-	padding: 5px;
+	padding: 2px;
 	color:black;
+	font-family: 'Hind Siliguri', sans-serif;
 }
 .middlefooter  ul a:hover li {
 	color:#10cbe4;
@@ -641,190 +722,22 @@ section.thirteen {
 	width: 90%;
 	text-align: left;		
 }
-.contacttext h1 {
-	font-size: 15px;
-}
-section.fourteen {
+.fourteen {
 	overflow: hidden;
 	height:40px;
 	background-color: black;
 }
 .privacypolicy {
 	text-align: center;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Ubuntu', sans-serif;
 	color:white;
 }
 .privacypolicy h4 {
 	padding-top: 10px;
 }
-/*
-.section1  {
-	float:left;
-	width:50%;
-	text-align: center;
-	padding-top: 150px;
 
+.contacttext h1 {
+	font-size: 15px;
 }
-.section1 h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:60px;
-}
-.section1 h2 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size:30px;
-	padding-top: 20px;
-}
-
-}
-
-.img2 img {
-	float: left;
-	height: 300px;
-	margin: 200px 0px 0px 50px;
-	border :solid white;
-	border-radius: 50px;
-}
-.text2 {
-	float: left;
-	text-align: center;
-	margin: 200px 0px 0px 100px;
-}
-.text2 h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:60px;
-}
-.text2 p {
-	font-family: Ubuntu;
-	font-size:30px;
-	padding-top: 20px;
-	color:#bfbfbf;
-}
-.section2 {
-    height: 660px;
-    width:100%;
-}
-.section3 {
-	height: 500px;
-	padding-top: 50px;
-}
-.section3up {
-	padding-top: 0px;
-	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:40px;
-}
-.section3down1 {
-	float: left;
-	margin: 0px 100px;
-	padding-left: 160px;
-}
-
-.s3im3 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-}
-.title1down {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-.section3down2 {
-	float: left;
-	margin: 0px 100px;
-}
-.s3im4 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-
-}
-.title2down {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-
-.section3down3 {
-	float: left;
-	margin: 0px 100px;
-}
-.s3im5 img {
-	height: 120px;
-	width:120px;
-	float: left;
-	padding: 50px 50px 20px 50px;
-}
-.title3down {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-.p1, .p2, .p3 {
-	text-align: center;
-	padding-top: 10px;
-	font-family: Ubuntu;
-	color:#bfbfbf;
-}
-.section4 {
-	height:500px;  
-}
-.s4heading {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:30px;
-	padding: 20px 0px 0px 20px;
-	text-align: center;
-}
-.section4down1 {
-	float: left;
-	margin: 0px 100px;
-	padding-left: 160px;
-}
-
-.s4im1 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-}
-.titledown1 {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-.section4down2 {
-	float: left;
-	margin: 0px 100px;
-}
-.s4im2 img {
-	height: 120px;
-	width:120px;
-	padding: 50px 50px 20px 50px;
-	float: left;
-
-}
-.titledown2 {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-
-.section4down3 {
-	float: left;
-	margin: 0px 100px;
-}
-.s4im3 img {
-	height: 120px;
-	width:120px;
-	float: left;
-	padding: 50px 50px 20px 50px;
-}
-.titledown3 {
-	padding-top: 120px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-}
-*/
+section.f

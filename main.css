@@ -714,17 +714,44 @@ section.thirteen {
 	width: 300px;
 	margin: 28px 90px;
 }
+.leftfooter2 {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.leftfooter2 p {
+	font-family: 'Hind Siliguri', sans-serif;
+	width: 300px;
+	margin: 28px 90px;
+}
 .middlefooter {
 	width: 33%;
 	float: left;
 	text-align: center;
 
 }
+.iconspace {
+	padding-top: 20px;
+}
+.middlefooter2 {
+	width: 33%;
+	float: left;
+}
 .rightfooter {
 	width: 33%;
 	float: left;
 	text-align: center;
 	border-left: 1px solid black;
+}
+.rightfooter2 {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.rightfooter2 p {
+	font-family: 'Hind Siliguri', sans-serif;
+	margin: 15px 130px;
+	text-align: justify;
 }
 .leftfooter h1 , .rightfooter h1 , .middlefooter h1 {
 	font-size: 20px;
@@ -734,9 +761,18 @@ section.thirteen {
 	border-bottom: 1.5px solid #43c0ff;
 
 }
+#getconnected {
+	padding-top: 20px;
+}
+.middlefooter2 h1, .leftfooter2 h1, .rightfooter2 h1 {
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
 .rightfooter h3 {
 	font-size: 15px;
-	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Hind Siliguri', msans-serif;
 	font-weight: lighter;
 }
 .middlefooter ul a {
@@ -751,14 +787,39 @@ section.thirteen {
 	color:black;
 	font-family: 'Hind Siliguri', sans-serif;
 }
-.middlefooter  ul a:hover li {
+.middlefooter2  ul a:hover li {
+	color:#10cbe4;
+}
+.middlefooter2 ul a {
+	text-decoration: none;
+}
+.middlefooter2 ul {
+	list-style-type: none;
+	padding: 30px;
+}
+.middlefooter2 ul li {
+	padding: 2px;
+	color:white	;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.middlefooter2  ul a:hover li {
 	color:#10cbe4;
 }
 .rightfooter p {
 	font-family: 'Hind Siliguri', sans-serif;
 	margin: 15px 130px;
+	text-align: justify;
 }
-
+.m1 {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.m2 {
+	width: 50%;
+	float: left;
+	text-align:left;
+}
 .socialfooter {
 	float: left;
 	padding-left: 20px;
@@ -766,7 +827,7 @@ section.thirteen {
 	color:black;
 }
 .socialfooter a {
-	color:black;
+	color:white;
 }
 .socialfooter a:hover {
 	color:#43c0ff;
@@ -789,10 +850,17 @@ section.thirteen {
 	width: 90%;
 	text-align: left;		
 }
+section.thirteen2 {
+	height: 400px;
+	overflow: hidden;
+	background-color: #323232;
+	color:white	;
+}
 .fourteen {
 	overflow: hidden;
 	height:40px;
-	background-color: black;
+	background-color: #2a2a2a;
+	border-bottom: 1px solid gray;
 }
 
 .privacypolicy {
@@ -812,4 +880,14 @@ section.thirteen {
 }
 .h1color {
 	color:#01363d;
+}
+
+.w3villaicon img {
+	width: 40px;
+}
+input[type="text"] {
+	border:white;
+	background-color: rgba(116, 116, 116, 0.59);
+	width: 250px;
+	padding: 10px;
 }

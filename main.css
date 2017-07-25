@@ -251,7 +251,8 @@ input[type="submit"] {
  #f2 {
  	width:500px;
  	border:1px solid white;
- 	padding: 15px;
+ 	padding: 12px;
+ 	background-color:rgba(0, 0, 0, 0.42)
  }
  .form h1 {
  	text-align: center;
@@ -572,13 +573,11 @@ section.eleven {
  .formstyle1 {
     margin:10px auto;
     max-width: 400px;
-    padding: 20px 12px 10px 20px;
+    padding: 10px 12px 10px 20px;
     font-family: 'Hind Siliguri', sans-serif;
     color:white;
 }
 .formstyle1 li {
-    padding: 0;
-    display: block;
     list-style: none;
     margin: 10px 0 0 0;
 }
@@ -591,7 +590,7 @@ section.eleven {
 .form2 {
 	width: 50%;
 	float: left;
-	padding-top: 50px;
+	padding-top: 8px;
 	box-sizing: border-box;
     padding-left: 50px;
 }
@@ -609,7 +608,7 @@ select{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     border:1px solid #BEBEBE;
-    padding: 7px;
+    padding: 12px;
     margin:0px;
     -webkit-transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
@@ -645,21 +644,25 @@ select{
 .formstyle1 .field-textarea{
     height: 100px;
 }
-.formstyle1 input[type=submit], .formstyle1 input[type=button]{
-    background: #4B99AD;
-    padding: 8px 15px 8px 15px;
-    border: none;
-    color: #fff;
+.emailus ul {
+	padding-top: 30px;
 }
-.formstyle1 input[type=submit]:hover, .formstyle1 input[type=button]:hover{
-    background: #4691A4;
-    box-shadow:none;
-    -moz-box-shadow:none;
-    -webkit-box-shadow:none;
+.getquotes a { 
+    border: solid 1px #059cd3;
+    color: white;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+    padding:10px 30px;
+    border-radius: 4px;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
-.formstyle1 .required{
-    color:red;
+.getquotes a:hover  {
+	color:white;
+	border-color: pink;
 }
+
 .intouch h1 {
 	font-family: 'CODEBold', sans-serif;
 	font-size:60px;

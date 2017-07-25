@@ -681,42 +681,59 @@ select{
 
 .socialicons {
 	padding: 20px 250px;
+	font-size:40px;
+}
+.socialicons a {
+	color:white;
+}
+.socialicons a:hover {
+	color:black;
 }
 section.thirteen {
 	height: 300px;
 	overflow: hidden;
-	background-color: #f0f0f0;
 }
 .footer {
 	width:100%;
 	padding-top: 50px;
 }
 .icofooter {
-	padding-left: 120px;
+	padding-left: 130px;
 }
 .leftfooter {
 	width: 33%;
 	float: left;
 	text-align: center;
+	border-right: 1px solid black;
 }
 .leftfooter p {
 	font-family: 'Hind Siliguri', sans-serif;
 	width: 300px;
-	margin: 25px 90px;
+	margin: 28px 90px;
 }
 .middlefooter {
 	width: 33%;
 	float: left;
 	text-align: center;
+
 }
 .rightfooter {
 	width: 33%;
 	float: left;
 	text-align: center;
+	border-left: 1px solid black;
 }
 .leftfooter h1 , .rightfooter h1 , .middlefooter h1 {
 	font-size: 20px;
 	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: lighter;
+	display: inline-block;
+	border-bottom: 1.5px solid #43c0ff;
+
+}
+.rightfooter h3 {
+	font-size: 15px;
+	font-family: 'Hind Siliguri', sans-serif;
 	font-weight: lighter;
 }
 .middlefooter ul a {
@@ -738,12 +755,18 @@ section.thirteen {
 	font-family: 'Hind Siliguri', sans-serif;
 	margin: 15px 130px;
 }
-.socialfooter img {
-	width:40px;
-}
+
 .socialfooter {
 	float: left;
 	padding-left: 20px;
+	font-size:40px;
+	color:black;
+}
+.socialfooter a {
+	color:black;
+}
+.socialfooter a:hover {
+	color:#43c0ff;
 }
 
 .icons {

@@ -387,6 +387,7 @@ section.eight {
 .ruby p, .php p, .nodejs p {
 	font-family: 'Hind Siliguri', sans-serif;
 	color:#444443;
+	padding: 0px 20px;
 }
 .ruby img, .php img, .nodejs img {
     width: 120px;

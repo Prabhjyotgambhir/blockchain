@@ -75,7 +75,7 @@ section.two {
 .text1 p {
 	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 28px;
-	color:#c8c8c8;
+	color:#8b8b8b;
 	padding-top:20px;
 	width:500px;
 }
@@ -159,7 +159,7 @@ section.four {
 .offer p {
 	font-family: 'Hind Siliguri', sans-serif;
 	color:#444443;
-	padding:0px 150px;
+	padding:0px 80px;
 }
 .offer img {
     width: 140px;
@@ -234,14 +234,20 @@ section.six {
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
-	padding: 5px;
+	padding: 10px;
+
 }
 input[type="submit"] {
-	padding: 3px;
+	padding: 8px 10px;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	border:solid 1px white;
 	border-radius: 4px;
 	font-weight: lighter;
+}
+.positionform1 {
+	padding-left: 100px;
+	margin:-25px auto;
+    max-width: 400px;
 }
  #f1 {
  	width:200px;
@@ -259,7 +265,7 @@ input[type="submit"] {
  	background-color: #d0b743;
  	width: 320px;
  	padding: 8px 0px 20px 0px;
- 	font-family: 'Ubuntu Condensed', sans-serif;
+ 	font-family: 'Muli', sans-serif;
  	font-size: 35px;
  	font-weight: lighter;
  }
@@ -270,34 +276,7 @@ input[type="submit"] {
  	padding-top: 120px;
  	border-bottom: 1px solid #d7d7d7;
  }
- .leftmove , .rightmove{
- 	float: left;
- 	width:9%;
- }
- .leftmove ul {
-	padding-left: 60px;
-	padding-top: 160px;
-}
-.rightmove ul {
-	padding-right: 60px;
-	padding-top: 160px;
-	padding-left: 30px;
-}		
-.leftmove ul li, .rightmove ul li  {
-	background-color: #43c0ff; 
-    border: none;
-    color: white;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;	
-    padding:10px 20px;
-    border-radius: 10px;
-}
-.leftmove ul a:hover li , .rightmove ul a:hover li {
-	background-color: black;
-}
-
+ 
 .success {
 	text-align: center;
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -310,13 +289,14 @@ input[type="submit"] {
 	font-weight: lighter;	
 }
 .stories {
-	width:40%;
+	width:45%;
 	float: left;
 	height: 300px;
 	background-color: #eaeaea;
 }
 #stories1 {
 	border-right: solid 10px white;
+	margin-left: 65px;
 }
 .stories h2 {
 	font-family: 'Ubuntu Condensed', sans-serif;
@@ -577,6 +557,9 @@ section.eleven {
     font-family: 'Hind Siliguri', sans-serif;
     color:white;
 }
+.formstyle1 select {
+	width: 400px;
+}
 .formstyle1 li {
     list-style: none;
     margin: 10px 0 0 0;
@@ -690,7 +673,7 @@ select{
 	color:white;
 }
 .socialicons a:hover {
-	color:black;
+	color:#43c0ff;
 }
 section.thirteen {
 	height: 300px;
@@ -699,6 +682,7 @@ section.thirteen {
 .footer {
 	width:100%;
 	padding-top: 50px;
+	border-top: 5px solid white;
 }
 .icofooter {
 	padding-left: 130px;
@@ -723,6 +707,7 @@ section.thirteen {
 	font-family: 'Hind Siliguri', sans-serif;
 	width: 300px;
 	margin: 28px 90px;
+	text-align: justify;
 }
 .middlefooter {
 	width: 33%;
@@ -736,6 +721,7 @@ section.thirteen {
 .middlefooter2 {
 	width: 33%;
 	float: left;
+	text-align: center;
 }
 .rightfooter {
 	width: 33%;
@@ -769,6 +755,8 @@ section.thirteen {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-weight: lighter;
 	text-align: center;
+	border-bottom: 1px solid wheat;
+	display: inline-block;
 }
 .rightfooter h3 {
 	font-size: 15px;
@@ -810,19 +798,9 @@ section.thirteen {
 	margin: 15px 130px;
 	text-align: justify;
 }
-.m1 {
-	width: 50%;
-	float: left;
-	text-align: right;
-}
-.m2 {
-	width: 50%;
-	float: left;
-	text-align:left;
-}
 .socialfooter {
 	float: left;
-	padding-left: 20px;
+	padding-right: 20px;
 	font-size:40px;
 	color:black;
 }
@@ -851,7 +829,7 @@ section.thirteen {
 	text-align: left;		
 }
 section.thirteen2 {
-	height: 400px;
+	height:350px;
 	overflow: hidden;
 	background-color: #323232;
 	color:white	;
@@ -872,6 +850,7 @@ section.thirteen2 {
 }
 .privacypolicy h4 {
 	padding-top: 10px;
+	font-weight: lighter;
 }
 
 .contacttext h1 {
@@ -884,10 +863,4 @@ section.thirteen2 {
 
 .w3villaicon img {
 	width: 40px;
-}
-input[type="text"] {
-	border:white;
-	background-color: rgba(116, 116, 116, 0.59);
-	width: 250px;
-	padding: 10px;
 }

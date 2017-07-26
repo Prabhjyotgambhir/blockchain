@@ -7,6 +7,9 @@
 	font-family: CODEBold;
 	src:url(font-family/CODEBold.otf);
 }
+body.in-transition {
+    transition: transform 900ms ease;
+  }
 .navbar {
 	list-style-type:none;
 	width:75%;
@@ -14,7 +17,6 @@
 	text-align:right;
 	height: 72px;
 }
-
 .navbar ul {
 	margin:30px 60px 0px 0px;
 }
@@ -83,12 +85,14 @@ section.two {
 	padding-left:400px;
 	padding-top: 30px;
 }
+.knowmore ul a {
+	text-align: center;
+    text-decoration: none;
+    color: white;	
+}
 .knowmore ul li  {
 	background-color: #43c0ff; 
-    border: none;
-    color: white;	
-    text-align: center;
-    text-decoration: none;
+    border: none; 
     display: inline-block;
     font-size: 16px;	
     padding:10px 20px;
@@ -291,7 +295,7 @@ input[type="submit"] {
 .stories {
 	width:45%;
 	float: left;
-	height: 300px;
+	height: 350px;
 	background-color: #eaeaea;
 }
 #stories1 {

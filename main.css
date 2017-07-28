@@ -86,7 +86,7 @@ section.two {
 	font-size: 28px;
 	color:#8b8b8b;
 	padding-top:20px;
-	width:500px;
+	width:100%;
 }
 .knowmore ul {
 	padding-left:400px;
@@ -173,7 +173,7 @@ section.four {
 	padding:0px 80px;
 }
 .offer img {
-    width: 140px;
+    width: 20%;
 }
 
 section.five {

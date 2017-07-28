@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1280px) {
 	section.three {
 		height: 420px;
@@ -22,13 +23,88 @@
 	}
 	.offer p {
 		font-size: 17px;
-		padding: 0px 45px;
+		padding: 0px 1;
 	}
 	.text4 p {
 		width: 600px;
 	}
 	section.seven {
 		padding-top: 50px;
+	}
+	.parallaxtext {
+	margin: 0px 200px;
+	}
+	.checkbox img {
+		padding-left: 60px;
+	}
+	.socialicons {
+		padding:20px 150px;
+	}
+	.rightfooter2 p {
+		margin: 15px 60px;
+	}
+	.icofooter {
+		padding-left: 60px;
+	}
+}
+@media screen and (max-width: 767px) {
+	section.three {
+		height: 220px;
+	}
+	section.eleven {
+		height: 500px;
+	}
+	section.five {
+		padding-top: 50px;
+	}
+	.offertext h1 {
+		padding-bottom: 30px;
+	}
+	.text1 h1, .text2 h1, .offertext h1, .text3 h1, .success h1, .application h1, .analysis h1, .inner3 h1, .intouch h1, .text4 h1 {
+		font-size: 30px;
+	}
+	.text1 p, .text2 p {
+		font-size: 17px;
+	}
+	.knowmore ul {
+	padding-left:200px;
+	padding-top: 10px;
+	}
+	.knowmore ul li {
+	font-size: 12px;	
+    padding:5px 10px;
+    }
+    .text4  {
+    width: 50%;
+    }
+    .form {
+    	width: 50%;
+    }
+    #f1 {
+    	padding: 32px;
+    }
+	.text2 p {
+		padding-top: 10px;
+	}
+	.offer h2, .present h2, .ruby h2, .php h2, .nodejs h2 {
+		font-size: 20px;
+	}
+	.offer p {
+		font-size: 11px;
+		padding: 0px 45px;
+	}
+	.text3 {
+		padding-bottom: 40px;
+	}
+	.text4 p {
+		width: 400px;
+		font-size: 18px;
+	}
+	section.seven {
+		padding-top: 50px;
+	}
+	.present img {
+		width: 80px;
 	}
 	.parallaxtext {
 	margin: 0px 200px;

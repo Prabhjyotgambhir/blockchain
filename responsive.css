@@ -1,0 +1,48 @@
+@media screen and (max-width: 1280px) {
+	section.three {
+		height: 420px;
+	}
+	section.eleven {
+		height: 500px;
+	}
+	.text1 h1, .text2 h1, .offertext h1, .text3 h1, .success h1, .application h1, .analysis h1, .inner3 h1, .intouch h1 {
+		font-size: 48px;
+	}
+	.text1 p, .text2 p {
+		font-size: 22px;
+	}
+	.knowmore ul {
+	padding-left:200px;
+	}
+	.text2 p {
+		padding-top: 10px;
+	}
+	.offer h2, .present h2, .ruby h2, .php h2, .nodejs h2 {
+		font-size: 28px;
+	}
+	.offer p {
+		font-size: 17px;
+		padding: 0px 45px;
+	}
+	.text4 p {
+		width: 600px;
+	}
+	section.seven {
+		padding-top: 50px;
+	}
+	.parallaxtext {
+	margin: 0px 200px;
+	}
+	.checkbox img {
+		padding-left: 60px;
+	}
+	.socialicons {
+		padding:20px 150px;
+	}
+	.rightfooter2 p {
+		margin: 15px 60px;
+	}
+	.icofooter {
+		padding-left: 60px;
+	}
+}

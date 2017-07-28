@@ -1,4 +1,14 @@
-
+body{
+	width: auto;
+}
+section {
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
 * {
 	margin:0;
 	padding:0;
@@ -18,7 +28,7 @@ body.in-transition {
 	height: 72px;
 }
 .navbar ul {
-	margin:30px 60px 0px 0px;
+	margin:30px 0px 0px 0px;
 }
 .header {
 	background-color: white;
@@ -31,7 +41,6 @@ body.in-transition {
 }
 .logo img {
 	width:155px;
-	padding-left:60px;
 	padding-top:10px;
 }
 .navbar ul li {
@@ -50,8 +59,7 @@ body.in-transition {
 }
 
 .img1 img {
-    width: 800px;
-    margin: 80px 40px 0px 0px;
+    width: 100%;
 }
 
 .img1 {
@@ -60,17 +68,16 @@ body.in-transition {
 }
 section.two {
     overflow: hidden;
-    height: 700px;
+    height: auto;
     border-bottom: 1px solid #d7d7d7;
 }
 .text1 {
     width: 50%;
     float: left;
     box-sizing: border-box;
-    padding: 120px 60px;
 }
 .text1 h1 {
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-size:60px;
 	font-weight: lighter;
 }
@@ -114,10 +121,10 @@ section.three {
 	float: left;
 }
 .img2 img {
-	margin: 5px 30px 0px 60px;
 	border:none;
 	border-radius: 300px;
     box-shadow: 0px 10px 60px gray ;
+    width: 80%;
 }
 .text2 {
     width: 50%;
@@ -127,7 +134,7 @@ section.three {
 
 }
 .text2 h1 {
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-size:60px;
 	font-weight: lighter;
 }
@@ -135,7 +142,7 @@ section.three {
 	font-size: 28px;
 	font-family: 'Hind Siliguri', sans-serif;
 	color:#8b8b8b;
-	width:700px;
+	width:100%;
 }
 .offer {
     width: 33.3%;
@@ -151,7 +158,7 @@ section.four {
 .offertext h1 {
     padding-bottom: 80px;
     font-size: 60px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
     font-weight: lighter;
 }
 .offer h2 {
@@ -172,7 +179,6 @@ section.four {
 section.five {
     text-align: center;
     overflow: hidden;
-    padding: 60px 0;
 }
 .present {
     width: 33.3%;
@@ -194,7 +200,7 @@ section.five {
 .text3 {
 	padding-bottom: 80px;
     font-size: 30px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
     
 }
 .text3  h1 {
@@ -204,8 +210,7 @@ section.five {
 section.six {
 	width: 100%;
 	overflow: hidden;
-	padding: 120px 0;
-	height:385px;
+	height:450px;
 	background-color:#01363d;
 }
 .text4 {
@@ -213,12 +218,11 @@ section.six {
     float: left;
     box-sizing: border-box;
     text-align: justify;
-    padding-left: 60px;
   	color:white;
 }
 .text4 h1 {
-	font-size: 40px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 38px;
+	font-family: 'Patua One', sans-serif;
 	font-weight: lighter;
 }
 .text4 p {
@@ -233,17 +237,17 @@ section.six {
     float: left;
     box-sizing: border-box;
     padding-left: 100px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
     font-weight: lighter;
  }
 input[type="text"], input[type="email"], textarea  {
 	border:solid 2px white;
-	padding: 10px;
+	padding: 10px 20px 10px 20px;
 
 }
 input[type="submit"] {
 	padding: 8px 10px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	border:solid 1px white;
 	border-radius: 4px;
 	font-weight: lighter;
@@ -268,42 +272,41 @@ input[type="submit"] {
  	text-align: center;
  	background-color: #d0b743;
  	width: 320px;
- 	padding: 8px 0px 20px 0px;
- 	font-family: 'Muli', sans-serif;
+ 	padding: 20px 0px 20px 0px;
+ 	font-family: 'Ubuntu Condensed', sans-serif;
  	font-size: 35px;
- 	font-weight: lighter;
+ 	font-weight: bold;
+ 	color: white;
  }
 
  section.seven {
  	overflow: hidden;
  	height: 550px;
- 	padding-top: 120px;
  	border-bottom: 1px solid #d7d7d7;
  }
  
 .success {
 	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-size: 30px;
-	padding: 30px 0px 30px 0px; 
 	font-weight: lighter;
 }
 .success h1 {
 	font-size: 60px;
 	font-weight: lighter;	
+	padding-bottom: 50px;
 }
 .stories {
-	width:45%;
+	width:49.5%;
 	float: left;
 	height: 350px;
 	background-color: #eaeaea;
 }
 #stories1 {
 	border-right: solid 10px white;
-	margin-left: 65px;
 }
 .stories h2 {
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	padding: 20px 0px 20px 0px;
 	text-align: center;
 	background-color: #c9c8c7;
@@ -332,15 +335,13 @@ input[type="submit"] {
 section.eight {
     text-align: center;
     overflow: hidden;
-    padding: 120px 0px 60px 0px;
 }
 .ruby {
-    width: 30%;
+    width: 32%;
     float: left;
     box-sizing: border-box;
     border:solid 0.5px #d9d9d9;
     border-radius: 10px;
-    margin-left: 60px;
     padding: 20px;
     opacity: 1;
    	transition: opacity .25s ease-in-out;
@@ -348,7 +349,7 @@ section.eight {
    -webkit-transition: opacity .25s ease-in-out;
 }
 .nodejs {
-	width: 30%;
+	width: 33%;
     float: left;
     box-sizing: border-box;
     border:solid 0.5px #d9d9d9;
@@ -361,12 +362,11 @@ section.eight {
    -webkit-transition: opacity .25s ease-in-out;
 }
 .php {
-	width: 30%;
+	width: 32%;
     float: left;
     box-sizing: border-box;
     border:solid 0.5px #d9d9d9;
     border-radius: 10px;
-    margin-right: 60px;
     padding: 20px;
     opacity: 1;
    	transition: opacity .25s ease-in-out;
@@ -379,7 +379,7 @@ section.eight {
 .application h1 {
     padding-bottom: 80px;
     font-size: 60px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
     font-weight: lighter;
 }
 .ruby h2, .php h2, .nodejs h2 {
@@ -397,8 +397,8 @@ section.eight {
     width: 120px;
 }
 section.nine  {
-	padding: 120px 0px 60px 0px;
 	overflow: hidden;
+	padding-bottom: 0px;
 }
 .parallax {
 	background-image: url("images/parallaximage.jpg");
@@ -409,7 +409,7 @@ section.nine  {
 	background-size: cover;	
 }
 .parallaxtext {
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-size: 30px;
 	padding-top:220px;
 	color:white;
@@ -430,7 +430,7 @@ section.nine  {
     font-size: 16px;	
     padding:10px 30px;
     border-radius: 4px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
 }
 .emailus ul a:hover li {
 	color:white;
@@ -440,7 +440,6 @@ section.nine  {
 section.ten {
     text-align: center;
     overflow: hidden;
-  	padding: 65px 0px 60px 0px;
   	border-bottom: 1px solid #d7d7d7;
 }
 .charts {
@@ -460,35 +459,35 @@ section.ten {
   transform: scale(1.1);
  }
 .charts img {
-	width: 400px;
+	width: 85%;
 }
 .charts h2 {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 30px;
-	padding:10px;
+	padding-top:10px;
 	font-weight: lighter;
 }
 
 .analysis {
 	text-align: center;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	padding: 30px 0px 30px 0px; 
+	font-family: 'Patua One', sans-serif;
 	font-weight: lighter;
 }
 .analysis h1 {
 	font-size: 60px;
+	padding-bottom: 20px;
 }
 section.eleven {
 	overflow: hidden;
 	height: 600px;
-	padding-top: 200px;
+	padding-bottom: 0px;
 }
 .inner3 {
 	width:100%;
 }
 .inner3 h1 {
 	font-size: 60px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	padding-left: 60px;
 	font-weight: lighter;
 }
@@ -520,11 +519,11 @@ section.eleven {
 }
 .checkbox img {
 	width:20px;
-	padding-left: 100px;
+	padding-left: 80px;
 }
 .map img {
-	width:800px;
-	margin-left: 120px;
+	width:90%;
+	padding-top: 10px;
 }
 .countryname {
 	float: left;
@@ -548,6 +547,7 @@ section.eleven {
 	background-position: center;
 	background-repeat: no-repeat;
  	background-size: cover;
+ 	padding-top: 40px;
  }
  .intouch {
  	float: left;
@@ -644,7 +644,7 @@ select{
     font-size: 16px;	
     padding:10px 30px;
     border-radius: 4px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', sans-serif;
 }
 .getquotes a:hover  {
 	color:white;
@@ -671,7 +671,7 @@ select{
 }
 
 .socialicons {
-	padding: 20px 250px;
+	padding: 20px 220px;
 	font-size:40px;
 }
 .socialicons a {
@@ -746,7 +746,7 @@ section.thirteen {
 }
 .leftfooter h1 , .rightfooter h1 , .middlefooter h1 {
 	font-size: 20px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-weight: lighter;
 	display: inline-block;
 	border-bottom: 1.5px solid #43c0ff;
@@ -757,7 +757,7 @@ section.thirteen {
 }
 .middlefooter2 h1, .leftfooter2 h1, .rightfooter2 h1 {
 	font-size: 20px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-weight: lighter;
 	text-align: center;
 	border-bottom: 1px solid wheat;
@@ -838,18 +838,22 @@ section.thirteen2 {
 	overflow: hidden;
 	background-color: #323232;
 	color:white	;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 .fourteen {
 	overflow: hidden;
 	height:40px;
 	background-color: #2a2a2a;
 	border-bottom: 1px solid gray;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .privacypolicy {
 	text-align: center;
 	font-size: 15px;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-weight: lighter;
 	color:white;
 }
@@ -869,3 +873,4 @@ section.thirteen2 {
 .w3villaicon img {
 	width: 40px;
 }
+

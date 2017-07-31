@@ -133,6 +133,9 @@ section.three {
     box-sizing: border-box;
 
 }
+.hide {
+	display: none;
+}
 .text2 h1 {
 	font-family: 'Patua One', sans-serif;
 	font-size:60px;

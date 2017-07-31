@@ -6,6 +6,12 @@
 	section.eleven {
 		height: 500px;
 	}
+	section.six {
+		height: 350px;
+	}
+	section.eight {
+		padding-bottom: 0px;
+	}
 	.text1 h1, .text2 h1, .offertext h1, .text3 h1, .success h1, .application h1, .analysis h1, .inner3 h1, .intouch h1 {
 		font-size: 48px;
 	}
@@ -21,9 +27,17 @@
 	.offer h2, .present h2, .ruby h2, .php h2, .nodejs h2 {
 		font-size: 28px;
 	}
-	.offer p {
-		font-size: 17px;
-		padding: 0px 1;
+	.offer p, .leftfooter2 h1, .middlefooter2 h1, .rightfooter2 h1{
+		font-size: 14px;
+		padding: 0px;
+	}
+	.leftfooter2 p {
+		margin: 28px 40px;
+		width: 200px;
+		font-size: 15px;
+	}
+	.middlefooter2 li {
+		font-size: 15px;
 	}
 	.text4 p {
 		width: 600px;
@@ -52,7 +66,7 @@
 		height: 220px;
 	}
 	section.eleven {
-		height: 500px;
+		height: 400px;
 	}
 	section.five {
 		padding-top: 50px;
@@ -80,14 +94,31 @@
     .form {
     	width: 50%;
     }
+    .form h1 {
+    	width: 264px;
+    	font-size: 25px;
+    }
+    .positionform1 {
+    	padding-left: 85px;
+    }
+
     #f1 {
     	padding: 32px;
     }
 	.text2 p {
 		padding-top: 10px;
 	}
+	.nodejs, .ruby, .php {
+		width: 31%;
+	}
+	.nodejs p, .ruby p, .php p {
+		font-size: 13px;
+	}
 	.offer h2, .present h2, .ruby h2, .php h2, .nodejs h2 {
 		font-size: 20px;
+	}
+	.ruby img, .php img, .nodejs img {
+		width: 80px;
 	}
 	.offer p {
 		font-size: 11px;
@@ -103,22 +134,118 @@
 	section.seven {
 		padding-top: 50px;
 	}
+	section.eleven {
+		padding-top: 50px;
+	}
+	section.twelve {
+		height: 500px;
+		padding-top: 20px;
+	}
+	section.thirteen2 {
+		height: 300px;
+	}
 	.present img {
 		width: 80px;
 	}
+	.parallax {
+		height: 450px;
+	}
 	.parallaxtext {
-	margin: 0px 200px;
+	margin: 0px 100px;
+	font-size: 20px;
 	}
 	.checkbox img {
-		padding-left: 60px;
+		padding-left: 25px;
+		width: 15px;
 	}
 	.socialicons {
-		padding:20px 150px;
+		padding:20px 60px;
 	}
 	.rightfooter2 p {
-		margin: 15px 60px;
+		margin: 15px 40px;
+		font-size: 15px;
 	}
 	.icofooter {
 		padding-left: 60px;
 	}
-}
+	.storyimg {
+		width: 100%;
+	}
+	.storyimg img {
+		width: 50%;
+		padding: 10px 70px;
+	}
+	.storytxt {
+		width: 100%;
+	}
+	.storytxt p {
+		width: 80%;
+		font-size: 14px;
+		padding-left: 30px;
+		margin: 0px;
+	}
+	.stories {
+		width: 49%;
+		height: 420px;
+	}
+	.charts h2 {
+		font-size: 17px;
+	}
+	.countryname h2 {
+		font-size: 15px;
+	}
+	.map img {
+		padding-top: 60px;
+	}
+	#f2 {
+		width: 90%;
+	}
+	.countries {
+		padding-top: 30px;
+	}
+	.formstyle1 input[type=text], 
+	.formstyle1 input[type=date],
+	.formstyle1 input[type=datetime],
+	.formstyle1 input[type=number],
+	.formstyle1 input[type=search],
+	.formstyle1 input[type=time],
+	.formstyle1 input[type=url],
+	.formstyle1 input[type=email],
+	textarea, 
+	select{
+	    padding: 5px; 
+	}
+	.formstyle1 label{
+	    display:block;
+	    font-size: 12px;
+	    font-weight: lighter;
+	}
+	.formstyle1 select {
+		width: 225px;
+	}
+	.form2 {
+		padding-top: 0px;
+	}
+	.formstyle1 a {
+		padding: 5px;
+	}
+	.formstyle1 li {
+		margin: 10px 0px -10px 0px;
+	}
+	.iconspace {
+		padding-top: 0px;
+		padding-left: 40px;
+	}
+	.socialfooter {
+		font-size: 25px;
+	}
+	.socialmedia {
+		font-size: 25px;
+		padding-left: 25px;
+	}
+	section.fourteen {
+		height: 30px;
+	}
+	.privacypolicy {
+		font-size: 10px;
+	}
